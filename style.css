@@ -5,8 +5,24 @@
 }
 
 h1{
+  position: absolute;
+  font-size: 45px;
+  font-family: 'Carter One', cursive;
+  top: 80px;
+  right: 430px;
   text-align: center;
   text-transform: uppercase;
+  color: white;
+  white-space: nowrap;
+}
+
+.main-photo img{
+  position: absolute;
+  width: 100%;
+  max-width: 1000px;
+  height: auto;
+  top: 150px;
+  left: 125px;
 }
 
 body {
@@ -20,6 +36,7 @@ div.logo {
 }
 
 nav {
+  position: fixed;
   margin: 0;
   width: 100%;
   background-color: black;
