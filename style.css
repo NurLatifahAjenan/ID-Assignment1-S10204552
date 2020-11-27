@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
@@ -6,10 +6,9 @@
 
 h1{
   position: absolute;
-  font-size: 45px;
   font-family: 'Carter One', cursive;
   top: 80px;
-  right: 430px;
+  right: 390px;
   text-align: center;
   text-transform: uppercase;
   color: white;
@@ -21,8 +20,18 @@ h1{
   width: 100%;
   max-width: 1000px;
   height: auto;
-  top: 150px;
+  top: 170px;
   left: 125px;
+}
+
+h2{
+  position: absolute;
+  font-family: 'Bebas Neue', sans-serif;
+  text-align: center;
+  top: 750px;
+  right: 525px;
+  color: white;
+
 }
 
 body {
@@ -61,7 +70,22 @@ nav {
 }
 
 .nav-bar > li > a:hover {
-  background-color: #5e5e5e;
+  background-color: #858585;
+}
+
+.intro-text p{
+  text-align: left;
+  padding-top: 850px;
+  padding-left: 120px;
+  color: white;
+  overflow-wrap: break-word;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.intro-photo {
+  padding-right: 0;
+  padding-left: 800px;
 }
 
 @media screen and (max-width: 1024px){
@@ -85,3 +109,5 @@ nav {
     top: 15px;
     padding: 10px 5px 10px 5px;
   }
+
+}
