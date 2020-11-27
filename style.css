@@ -25,13 +25,12 @@ h1{
 }
 
 h2{
-  position: absolute;
+  position: relative;
   font-family: 'Bebas Neue', sans-serif;
   text-align: center;
   top: 750px;
-  right: 525px;
   color: white;
-
+  flex-wrap: wrap;
 }
 
 body {
@@ -74,18 +73,25 @@ nav {
 }
 
 .intro-text p{
-  text-align: left;
-  padding-top: 850px;
-  padding-left: 120px;
+  text-align: center;
+  padding-top: 780px;
   color: white;
   overflow-wrap: break-word;
   font-size: 18px;
   line-height: 25px;
 }
 
+.purple-logo {
+  position: absolute;
+  padding-left: 20px;
+  top: 810px;
+}
+
 .intro-photo {
+  position: absolute;
   padding-right: 0;
-  padding-left: 800px;
+  padding-left: 770px;
+  top: 1300px;
 }
 
 @media screen and (max-width: 1024px){
