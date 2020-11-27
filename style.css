@@ -83,15 +83,14 @@ nav {
 
 .purple-logo {
   position: absolute;
-  padding-left: 20px;
-  top: 810px;
+  padding-left: 40px;
+  top: 815px;
 }
 
 .intro-photo {
   position: absolute;
-  padding-right: 0;
-  padding-left: 770px;
-  top: 1300px;
+  padding-left: 975px;
+  top: 765px;
 }
 
 @media screen and (max-width: 1024px){
