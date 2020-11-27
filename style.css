@@ -83,14 +83,26 @@ nav {
 
 .purple-logo {
   position: absolute;
-  padding-left: 40px;
-  top: 815px;
+  padding-left: 35px;
+  top: 765px;
 }
 
 .intro-photo {
   position: absolute;
   padding-left: 975px;
   top: 765px;
+}
+
+.official-logo {
+  position: absolute;
+  padding-left: 650px;
+  top: 1100px;
+}
+
+.neverland-logo {
+  position: absolute;
+  padding-left: 50px;
+  top: 1100px;
 }
 
 @media screen and (max-width: 1024px){
