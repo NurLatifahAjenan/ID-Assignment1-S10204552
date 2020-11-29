@@ -236,6 +236,7 @@
   text-align: center;
   color: white;
   top: 1000px;
+  padding-bottom: 100px;
 }
 
 .links-text a:link {
@@ -633,11 +634,10 @@ div.logo {
   justify-content: center;
   width: 370px;
   height: auto;
-  background-color: white;
   text-align: center;
   margin: 20px;
   padding: 20px;
-  top: 50px;
+  top: 60px;
 }
 
 .hann-box {
@@ -648,11 +648,10 @@ div.logo {
   justify-content: center;
   width: 370px;
   height: auto;
-  background-color: white;
   text-align: center;
   margin: 20px;
   padding: 20px;
-  top: 50px;
+  top: 0px;
 }
 
 .imade-box {
@@ -663,7 +662,6 @@ div.logo {
   justify-content: center;
   width: 370px;
   height: auto;
-  background-color: white;
   text-align: center;
   margin: 20px;
   padding: 20px;
@@ -678,11 +676,10 @@ div.logo {
   justify-content: center;
   width: 370px;
   height: auto;
-  background-color: white;
   text-align: center;
   margin: 20px;
   padding: 20px;
-  top: 100px;
+  top: 95px;
 }
 
 .uhoh-box {
@@ -693,11 +690,10 @@ div.logo {
   justify-content: center;
   width: 370px;
   height: auto;
-  background-color: white;
   text-align: center;
   margin: 20px;
   padding: 20px;
-  top: 100px;
+  top: 60px;
 }
 
 .itrust-box {
@@ -708,11 +704,10 @@ div.logo {
   justify-content: center;
   width: 370px;
   height: auto;
-  background-color: white;
   text-align: center;
   margin: 20px;
   padding: 20px;
-  top: 100px;
+  top: 110px;
 }
 
 .imthetrend-box {
@@ -723,11 +718,10 @@ div.logo {
   justify-content: center;
   width: 370px;
   height: auto;
-  background-color: white;
   text-align: center;
   margin: 20px;
   padding: 20px;
-  top: 150px;
+  top: 100px;
 }
 
 .dumdi-box {
@@ -738,11 +732,10 @@ div.logo {
   justify-content: center;
   width: 370px;
   height: auto;
-  background-color: white;
   text-align: center;
   margin: 20px;
   padding: 20px;
-  top: 150px;
+  top: 100px;
 }
 
 .ohmygod-box {
@@ -753,7 +746,6 @@ div.logo {
   justify-content: center;
   width: 370px;
   height: auto;
-  background-color: white;
   text-align: center;
   margin: 20px;
   padding: 20px;
@@ -912,6 +904,108 @@ div.logo {
 .ohmygod-box .ohmygod-cover {
   background-image: url(gidleohmygod.jpg);
 }
+
+.iam-text {
+  font-size: 24px;
+  color: white;
+}
+
+.hann-text {
+  font-size: 24px;
+  color: white;
+}
+
+.imade-text {
+  font-size: 24px;
+  color: white;
+}
+
+.latata-text {
+  font-size: 24px;
+  color: white;
+}
+
+.uhoh-text {
+  font-size: 24px;
+  color: white;
+}
+
+.itrust-text {
+  font-size: 24px;
+  color: white;
+}
+
+.itrust-text {
+  font-size: 24px;
+  color: white;
+}
+
+.imthetrend-text {
+  font-size: 24px;
+  color: white;
+}
+
+.dumdi-text {
+  font-size: 24px;
+  color: white;
+}
+
+.ohmygod-text {
+  font-size: 24px;
+  color: white;
+}
+
+.iam-text p {
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.hann-text p {
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.imade-text p {
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.latata-text p {
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.uhoh-text p {
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.itrust-text p {
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.iam-text p {
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.imthetrend-text p {
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.dumdi-text p {
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.ohmygod-text p {
+  font-size: 18px;
+  line-height: 25px;
+}
+
+
 @media screen and (max-width: 1024px){
   .nav-bar{
     width: 100%;
