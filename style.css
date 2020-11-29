@@ -151,7 +151,7 @@
   font-size: 40px;
   color: white;
   top: 1195px;
-  right: 500px;
+  padding-left: 665px;
 }
 
 .fandom-text p {
@@ -196,6 +196,16 @@
   top: 1600px;
   left: 220px;
   line-height: 25px;
+}
+
+.members-text h2 {
+  position: relative;
+  text-align: center;
+  justify-content: center;
+  color: white;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 40px;
+  top: 800px;
 }
 
 body {
@@ -252,12 +262,273 @@ div.logo {
   color: black;
 }
 
+.members-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
 
+.miyeon-box {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 350px;
+  height: auto;
+  background-color: white;
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  top: 800px;
+}
 
+.minnie-box {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 350px;
+  height: auto;
+  background-color: white;
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  top: 800px;
+}
 
+.soojin-box {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 350px;
+  height: auto;
+  background-color: white;
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  top: 800px;
+}
 
+.soyeon-box {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 350px;
+  height: auto;
+  background-color: white;
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  top: 800px;
+}
 
+.yuqi-box {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 350px;
+  height: auto;
+  background-color: white;
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  top: 800px;
+}
 
+.shuhua-box {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 350px;
+  height: auto;
+  background-color: white;
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  top: 800px;
+}
+
+.miyeon-id {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 275px;
+  height: 350px;
+  margin-bottom: 10px;
+  padding: 20px;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+}
+
+.miyeon-box .miyeon-id {
+  background-image: url(miyeonid.jpeg);
+}
+
+.minnie-id {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 275px;
+  height: 350px;
+  margin-bottom: 10px;
+  padding: 20px;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+}
+
+.minnie-box .minnie-id {
+  background-image: url(minnieid.jpeg);
+}
+
+.soojin-id {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 275px;
+  height: 350px;
+  margin-bottom: 10px;
+  padding: 20px;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+}
+
+.soojin-box .soojin-id {
+  background-image: url(soojinid.jpeg);
+}
+
+.soyeon-id {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 275px;
+  height: 350px;
+  margin-bottom: 10px;
+  padding: 20px;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+}
+
+.soyeon-box .soyeon-id {
+  background-image: url(soyeonid.jpeg);
+}
+
+.yuqi-id {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 275px;
+  height: 350px;
+  margin-bottom: 10px;
+  padding: 20px;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+}
+
+.yuqi-box .yuqi-id {
+  background-image: url(yuqiid.jpeg);
+}
+
+.shuhua-id {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 275px;
+  height: 350px;
+  margin-bottom: 10px;
+  padding: 20px;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+}
+
+.shuhua-box .shuhua-id {
+  background-image: url(shuhuaid.jpeg);
+}
+
+.miyeon-text h3 {
+  font-size: 24px;
+  line-height: 40px;
+}
+
+.minnie-text h3 {
+  font-size: 24px;
+  line-height: 40px;
+}
+
+.soojin-text h3 {
+  font-size: 24px;
+  line-height: 40px;
+}
+
+.soyeon-text h3 {
+  font-size: 24px;
+  line-height: 40px;
+}
+
+.yuqi-text h3 {
+  font-size: 24px;
+  line-height: 40px;
+}
+
+.shuhua-text h3 {
+  font-size: 24px;
+  line-height: 40px;
+}
+
+.miyeon-text p {
+  font-size: 17px;
+}
+
+.minnie-text p {
+  font-size: 17px;
+}
+
+.soojin-text p {
+  font-size: 17px;
+}
+
+.soyeon-text p {
+  font-size: 17px;
+}
+
+.yuqi-text p {
+  font-size: 17px;
+}
+
+.shuhua-text p {
+  font-size: 17px;
+}
+
+.miyeon-box:hover {
+  background-color: rgb(231, 231, 231);
+  color: black;
+}
+
+.minnie-box:hover {
+  background-color: lightskyblue;
+  color: black;
+}
+
+.soojin-box:hover {
+  background-color: rgb(196, 0, 0);
+  color: white;
+}
 
 
 @media screen and (max-width: 1024px){
@@ -306,7 +577,7 @@ div.logo {
     text-align: center;
     padding: 0;
     left: 0;
-    top: 280px;
+    top: 300px;
     line-height: 20px;
   }
 
@@ -315,25 +586,117 @@ div.logo {
     font-size: 30px;
     justify-content: center;
     text-align: center;
+    top: 340px;
+    padding: 0;
+  }
+
+  .fandom-text p {
+    position: relative;
+    font-size: 14px;
+    justify-content: center;
+    text-align: center;
+    top: 520px;
+    padding: 0;
+    left: 0;
+    right: 0;
+  }
+
+  .labels-text h2 {
+    position: relative;
+    font-size: 30px;
+    justify-content: center;
+    text-align: center;
+    top: 410px;
+    left: 0;
+    padding: 0;
+  }
+
+  .labels-text p {
+    position: relative;
+    font-size: 14px;
+    justify-content: center;
+    text-align: center;
+    top: 510px;
+    left: 0;
+    padding: 0;
+  }
+
+  .colours-text h2 {
+    position: relative;
+    font-size: 30px;
+    justify-content: center;
+    text-align: center;
+    top: 840px;
+    left: 0;
+    padding: 0;
+  }
+
+  .colours-text p {
+    position: relative;
+    font-size: 14px;
+    justify-content: center;
+    text-align: center;
+    top: 950px;
+    left: 0;
+    padding: 0;
   }
 
   .official-logo {
-    position: relative;
+    position: absolute;
     width: 150px;
     height: 150px;
+    top: 750px;
     left: 130px;
   }
 
   .deul {
-    position: relative;
+    position: absolute;
     width: 150px;
     height: 150px;
-    bottom: 230px;
+    top: 750px;
     left: 300px;
-
   }
 
+  .neverland-logo {
+    position: absolute;
+    top: 1210px;
+    left: 220px;
+  }
 
+  .cube-logo {
+    position: absolute;
+    left: 135px;
+    top: 1690px;
+  }
 
+  .republic-logo {
+    position: absolute;
+    top: 1690px;
+    left: 215px;
+  }
+
+  .universal-logo {
+    position: absolute;
+    top: 1690px;
+    left: 295px;
+  }
+
+  .hotidol-logo {
+    position: absolute;
+    top: 1690px;
+    left: 375px;
+  }
+
+  .neon-red {
+    position: absolute;
+    top: 1970px;
+    left: 215px;
+  }
+
+  .chic-violet {
+    position: absolute;
+    top: 1970px;
+    left: 295px;
+  }
 
 }
