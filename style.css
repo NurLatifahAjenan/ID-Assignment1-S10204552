@@ -23,6 +23,17 @@
   height: auto;
 }
 
+.discography-photo img{
+  display: flex;
+  width: 100%;
+  height: auto;
+}
+
+.gallery-photo img{
+  display: flex;
+  width: 100%;
+  height: auto;
+}
 .official-logo {
   position: absolute;
   display: flex;
@@ -208,6 +219,41 @@
   top: 800px;
 }
 
+.links-text h2 {
+  position: relative;
+  text-align: center;
+  justify-content: center;
+  color: white;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 40px;
+  top: 1000px;
+}
+
+.links-text p {
+  position: relative;
+  text-decoration: none;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  top: 1000px;
+}
+
+.links-text a:link {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.links-text a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+.links-text a:hover {
+  color: rgb(0, 0, 107);
+}
+
 body {
   font-family: "Arial", serif;
   background-color: #7e00bf;
@@ -281,7 +327,7 @@ div.logo {
   text-align: center;
   margin: 20px;
   padding: 20px;
-  top: 800px;
+  top: 860px;
 }
 
 .minnie-box {
@@ -296,7 +342,7 @@ div.logo {
   text-align: center;
   margin: 20px;
   padding: 20px;
-  top: 800px;
+  top: 890px;
 }
 
 .soojin-box {
@@ -311,7 +357,7 @@ div.logo {
   text-align: center;
   margin: 20px;
   padding: 20px;
-  top: 800px;
+  top: 870px;
 }
 
 .soyeon-box {
@@ -326,7 +372,7 @@ div.logo {
   text-align: center;
   margin: 20px;
   padding: 20px;
-  top: 800px;
+  top: 870px;
 }
 
 .yuqi-box {
@@ -341,7 +387,7 @@ div.logo {
   text-align: center;
   margin: 20px;
   padding: 20px;
-  top: 800px;
+  top: 880px;
 }
 
 .shuhua-box {
@@ -356,7 +402,7 @@ div.logo {
   text-align: center;
   margin: 20px;
   padding: 20px;
-  top: 800px;
+  top: 860px;
 }
 
 .miyeon-id {
@@ -530,6 +576,21 @@ div.logo {
   color: white;
 }
 
+.soyeon-box:hover {
+  background-color: rgb(223, 119, 0);
+  color: white;
+}
+
+.yuqi-box:hover {
+  background-color: rgb(0, 112, 0);
+  color: white;
+}
+
+.shuhua-box:hover {
+  background-color: rgb(255, 255, 19);
+  color: black;
+}
+
 
 @media screen and (max-width: 1024px){
   .nav-bar{
@@ -637,6 +698,16 @@ div.logo {
     justify-content: center;
     text-align: center;
     top: 950px;
+    left: 0;
+    padding: 0;
+  }
+
+  .members-text h2 {
+    position: relative;
+    font-size: 30px;
+    justify-content: center;
+    text-align: center;
+    top: 860px;
     left: 0;
     padding: 0;
   }
