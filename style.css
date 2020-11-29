@@ -24,22 +24,86 @@
 }
 
 .official-logo {
-  position: relative;
+  position: absolute;
   display: flex;
   width: 150px;
   height: 150px;
   left: 50px;
-  bottom: 80px;
+  top: 1263px;
 }
 
 .deul {
-  position: relative;
+  position: absolute;
   display: flex;
   width: 80px;
   height: 80px;
   left: 120px;
-  bottom: 70px;
+  top: 1420px;
 }
+
+.neverland-logo {
+  position: absolute;
+  display: flex;
+  width: 150px;
+  height: 150px;
+  top: 1263px;
+  right: 450px;
+}
+
+.neon-red {
+  position: absolute;
+  display: flex;
+  width: 70px;
+  height: 70px;
+  top: 1680px;
+  right: 530px;
+}
+
+.chic-violet {
+  position: absolute;
+  display: flex;
+  width: 70px;
+  height: 70px;
+  top: 1600px;
+  right: 530px;
+}
+
+.cube-logo {
+  position: absolute;
+  display: flex;
+  width: 70px;
+  height: 70px;
+  top: 1600px;
+  left: 50px;
+}
+
+.republic-logo {
+  position: absolute;
+  display: flex;
+  width: 70px;
+  height: 70px;
+  top: 1600px;
+  left: 130px;
+}
+
+.universal-logo {
+  position: absolute;
+  display: flex;
+  width: 70px;
+  height: 70px;
+  top: 1680px;
+  left: 50px;
+}
+
+.hotidol-logo {
+  position: absolute;
+  display: flex;
+  width: 70px;
+  height: 70px;
+  top: 1680px;
+  left: 130px;
+}
+
 
 .intro-text h2{
   position: relative;
@@ -63,21 +127,74 @@
 }
 
 .name-text h2 {
-  position: relative;
+  position: absolute;
   font-family: 'Bebas Neue', sans-serif;
   font-size: 40px;
   color: white;
-  top: 150px;
+  top: 1195px;
   padding-left: 50px;
 }
 
 .name-text p {
-  position: relative;
+  position: absolute;
   color: white;
   font-size: 17px;
-  top: 160px;
+  top: 1260px;
   left: 220px;
   overflow-wrap: break-word;
+  line-height: 25px;
+}
+
+.fandom-text h2 {
+  position: absolute;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 40px;
+  color: white;
+  top: 1195px;
+  right: 500px;
+}
+
+.fandom-text p {
+  position: absolute;
+  font-size: 17px;
+  color: white;
+  top: 1260px;
+  left: 830px;
+  line-height: 25px;
+}
+
+.colours-text h2 {
+  position: absolute;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 40px;
+  color: white;
+  top: 1530px;
+  right: 380px;
+}
+
+.colours-text p {
+  position: absolute;
+  font-size: 17px;
+  color: white;
+  top: 1600px;
+  left: 750px;
+}
+
+.labels-text h2{
+  position: absolute;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 40px;
+  color: white;
+  top: 1530px;
+  left: 50px;
+}
+
+.labels-text p {
+  position: absolute;
+  font-size: 17px;
+  color: white;
+  top: 1600px;
+  left: 220px;
   line-height: 25px;
 }
 
@@ -170,7 +287,7 @@ div.logo {
 
   .intro-text p{
     overflow-wrap: break-word;
-    font-size: 10px;
+    font-size: 14px;
   }
 
   .name-text h2{
@@ -178,16 +295,45 @@ div.logo {
     font-size: 30px;
     justify-content: center;
     text-align: center;
-    top: 140px;
+    top: 120px;
     padding: 0;
+  }
+
+  .name-text p {
+    position: relative;
+    font-size: 14px;
+    justify-content: center;
+    text-align: center;
+    padding: 0;
+    left: 0;
+    top: 280px;
+    line-height: 20px;
+  }
+
+  .fandom-text h2 {
+    position: relative;
+    font-size: 30px;
+    justify-content: center;
+    text-align: center;
   }
 
   .official-logo {
     position: relative;
-    width: 120px;
-    height: 120px;
-    top: 100px;
+    width: 150px;
+    height: 150px;
+    left: 130px;
   }
+
+  .deul {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    bottom: 230px;
+    left: 300px;
+
+  }
+
+
 
 
 }
