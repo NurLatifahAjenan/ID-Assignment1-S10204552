@@ -591,7 +591,327 @@ div.logo {
   color: black;
 }
 
+.gallery-text h1{
+  position: relative;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  white-space: nowrap;
+  font-family: 'Carter One', cursive;
+}
 
+.discography-text h1{
+  position: relative;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  white-space: nowrap;
+  font-family: 'Carter One', cursive;
+}
+
+
+.disco-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.iam-box {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 370px;
+  height: auto;
+  background-color: white;
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  top: 50px;
+}
+
+.hann-box {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 370px;
+  height: auto;
+  background-color: white;
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  top: 50px;
+}
+
+.imade-box {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 370px;
+  height: auto;
+  background-color: white;
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  top: 50px;
+}
+
+.latata-box {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 370px;
+  height: auto;
+  background-color: white;
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  top: 100px;
+}
+
+.uhoh-box {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 370px;
+  height: auto;
+  background-color: white;
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  top: 100px;
+}
+
+.itrust-box {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 370px;
+  height: auto;
+  background-color: white;
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  top: 100px;
+}
+
+.imthetrend-box {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 370px;
+  height: auto;
+  background-color: white;
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  top: 150px;
+}
+
+.dumdi-box {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 370px;
+  height: auto;
+  background-color: white;
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  top: 150px;
+}
+
+.ohmygod-box {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 370px;
+  height: auto;
+  background-color: white;
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  top: 150px;
+}
+
+.iam-cover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 300px;
+  margin-bottom: 10px;
+  padding: 20px;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+}
+
+.hann-cover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 300px;
+  margin-bottom: 10px;
+  padding: 20px;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+}
+
+.imade-cover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 300px;
+  margin-bottom: 10px;
+  padding: 20px;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+}
+
+.latata-cover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 300px;
+  margin-bottom: 10px;
+  padding: 20px;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+}
+
+.uhoh-cover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 300px;
+  margin-bottom: 10px;
+  padding: 20px;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+}
+
+.itrust-cover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 300px;
+  margin-bottom: 10px;
+  padding: 20px;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+}
+
+.imthetrend-cover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 300px;
+  margin-bottom: 10px;
+  padding: 20px;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+}
+
+.dumdi-cover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 300px;
+  margin-bottom: 10px;
+  padding: 20px;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+}
+
+.ohmygod-cover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 300px;
+  margin-bottom: 10px;
+  padding: 20px;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+}
+
+.iam-box .iam-cover {
+  background-image: url(gidleiam.png);
+}
+
+.hann-box .hann-cover {
+  background-image: url(gidlehann.jpg);
+}
+
+.imade-box .imade-cover {
+  background-image: url(gidleimade.jpg);
+}
+
+.latata-box .latata-cover {
+  background-image: url(gidlelatata.jpg);
+}
+
+.uhoh-box .uhoh-cover {
+  background-image: url(gidleuhoh.jpg);
+}
+
+.itrust-box .itrust-cover {
+  background-image: url(gidleitrust.jpg);
+}
+
+.imthetrend-box .imthetrend-cover {
+  background-image: url(gidleimthetrend.png);
+}
+
+.dumdi-box .dumdi-cover {
+  background-image: url(gidledumdidumdi.jpg);
+}
+
+.ohmygod-box .ohmygod-cover {
+  background-image: url(gidleohmygod.jpg);
+}
 @media screen and (max-width: 1024px){
   .nav-bar{
     width: 100%;
