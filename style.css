@@ -1005,6 +1005,25 @@ div.logo {
   line-height: 25px;
 }
 
+.gallery-area {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.latataone-img  img{
+  padding: 40px 20px 20px;
+  width: 420px;
+  height: 480px;
+}
+
+.latatatwo-img img {
+  padding: 20px 20px 20px;
+  width: 420px;
+  height: 300px;
+}
 
 @media screen and (max-width: 1024px){
   .nav-bar{
