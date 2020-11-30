@@ -4,10 +4,71 @@
   box-sizing: border-box;
 }
 
-.title-text h1{
+body {
+  font-family: "Arial", serif;
+  background-color: #7e00bf;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/*navigation bar*/
+
+header {
+  position: fixed;
+}
+
+div.logo {
+  margin-left: 20px;
+  padding-top: 10px;
+}
+
+.nav-bar {
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  color: white;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 30px;
+}
+
+.nav-links ul {
   position: relative;
   margin: 0;
   padding: 0;
+  display: flex;
+}
+
+.nav-links li {
+  position: relative;
+  list-style: none;
+}
+
+.nav-links li a {
+  position: relative;
+  text-decoration: none;
+  color: white;
+  padding: 20px 40px;
+  display: block;
+}
+
+.nav-links li:hover {
+  background-color: rgb(143, 143, 143);
+  color: black;
+}
+
+/*HOMEPAGE HOMEPAGE HOMEPAGE HOMEPAGE HOMEPAGE HOMEPAGE HOMEPAGE HOMEPAGE HOMEPAGE HOMEPAGE HOMEPAGE HOMEPAGE*/
+
+/*homepage title*/
+
+.title-text h1{
+  position: relative;
+  margin: 0;
+  padding: 80px 0 0 0;
   display: flex;
   justify-content: center;
   text-align: center;
@@ -17,11 +78,16 @@
   font-family: 'Carter One', cursive;
 }
 
+
+/*homepage main image*/
+
 .main-photo img{
   display: flex;
   width: 100%;
   height: auto;
 }
+
+/*discography page main image*/
 
 .discography-photo img{
   display: flex;
@@ -29,11 +95,19 @@
   height: auto;
 }
 
+/*gallery page main image*/
+
 .gallery-photo img{
   display: flex;
   width: 100%;
   height: auto;
 }
+
+
+
+
+/*homepage images*/
+
 .official-logo {
   position: absolute;
   display: flex;
@@ -116,6 +190,12 @@
 }
 
 
+
+
+/*homepage text*/
+
+/*introduction text*/
+
 .intro-text h2{
   position: relative;
   font-family: 'Bebas Neue', sans-serif;
@@ -137,6 +217,10 @@
   top: 80px;
 }
 
+
+
+/*name and logo text*/
+
 .name-text h2 {
   position: absolute;
   font-family: 'Bebas Neue', sans-serif;
@@ -156,6 +240,10 @@
   line-height: 25px;
 }
 
+
+
+/*fandom text*/
+
 .fandom-text h2 {
   position: absolute;
   font-family: 'Bebas Neue', sans-serif;
@@ -174,6 +262,9 @@
   line-height: 25px;
 }
 
+
+/*official colours text*/
+
 .colours-text h2 {
   position: absolute;
   font-family: 'Bebas Neue', sans-serif;
@@ -190,6 +281,10 @@
   top: 1600px;
   left: 750px;
 }
+
+
+
+/*labels text*/
 
 .labels-text h2{
   position: absolute;
@@ -209,6 +304,10 @@
   line-height: 25px;
 }
 
+
+
+/*members text*/
+
 .members-text h2 {
   position: relative;
   text-align: center;
@@ -218,6 +317,10 @@
   font-size: 40px;
   top: 800px;
 }
+
+
+
+/*links text*/
 
 .links-text h2 {
   position: relative;
@@ -255,59 +358,11 @@
   color: rgb(0, 0, 107);
 }
 
-body {
-  font-family: "Arial", serif;
-  background-color: #7e00bf;
-  margin: 0;
-  padding: 0;
-  overflow-x: hidden;
-}
 
-header {
-  position: fixed;
-}
 
-div.logo {
-  margin-left: 20px;
-  padding-top: 10px;
-}
 
-.nav-bar {
-  z-index: 1;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: black;
-  color: white;
-  font-family: 'Bebas Neue', sans-serif;
-  font-size: 30px;
-}
 
-.nav-links ul {
-  position: relative;
-  margin: 0;
-  padding: 0;
-  display: flex;
-}
-
-.nav-links li {
-  position: relative;
-  list-style: none;
-}
-
-.nav-links li a {
-  position: relative;
-  text-decoration: none;
-  color: white;
-  padding: 20px 40px;
-  display: block;
-}
-
-.nav-links li:hover {
-  background-color: rgb(143, 143, 143);
-  color: black;
-}
+/*members flexbox*/
 
 .members-box {
   display: flex;
@@ -315,6 +370,8 @@ div.logo {
   justify-content: center;
   align-items: center;
 }
+
+/*members individual flexbox*/
 
 .miyeon-box {
   position: relative;
@@ -405,6 +462,9 @@ div.logo {
   padding: 20px;
   top: 860px;
 }
+
+
+/*members flexbox images*/
 
 .miyeon-id {
   display: flex;
@@ -508,6 +568,9 @@ div.logo {
   background-image: url(shuhuaid.jpeg);
 }
 
+
+/*flexbox text*/
+
 .miyeon-text h3 {
   font-size: 24px;
   line-height: 40px;
@@ -562,6 +625,9 @@ div.logo {
   font-size: 17px;
 }
 
+
+/*flexbox hover effect*/
+
 .miyeon-box:hover {
   background-color: rgb(231, 231, 231);
   color: black;
@@ -592,23 +658,21 @@ div.logo {
   color: black;
 }
 
-.gallery-text h1{
-  position: relative;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  text-transform: uppercase;
-  color: white;
-  white-space: nowrap;
-  font-family: 'Carter One', cursive;
-}
+
+
+
+
+
+
+
+/*DISCOGRAPHY PAGE DISCOGRAPHY PAGE DISCOGRAPHY PAGE DISCOGRAPHY PAGE DISCOGRAPHY PAGE DISCOGRAPHY PAGE*/
+
+/*discography page title */
 
 .discography-text h1{
   position: relative;
   margin: 0;
-  padding: 0;
+  padding: 80px 0 0 0;
   display: flex;
   justify-content: center;
   text-align: center;
@@ -618,6 +682,9 @@ div.logo {
   font-family: 'Carter One', cursive;
 }
 
+
+
+/*discography flexbox*/
 
 .disco-box {
   display: flex;
@@ -625,6 +692,9 @@ div.logo {
   justify-content: center;
   align-items: center;
 }
+
+
+/*individual flexboxes*/
 
 .iam-box {
   position: relative;
@@ -751,6 +821,10 @@ div.logo {
   padding: 20px;
   top: 150px;
 }
+
+
+
+/*flexbox images*/
 
 .iam-cover {
   display: flex;
@@ -905,6 +979,10 @@ div.logo {
   background-image: url(gidleohmygod.jpg);
 }
 
+
+
+/*flexbox text*/
+
 .iam-text {
   font-size: 24px;
   color: white;
@@ -1005,6 +1083,34 @@ div.logo {
   line-height: 25px;
 }
 
+
+
+
+
+
+
+
+/*GALLERY PAGE GALLERY PAGE GALLERY PAGE GALLERY PAGE GALLERY PAGE GALLERY PAGE GALLERY PAGE GALLERY PAGE*/
+
+/*gallery page title*/
+
+.gallery-text h1{
+  position: relative;
+  margin: 0;
+  padding: 80px 0 0 0;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  white-space: nowrap;
+  font-family: 'Carter One', cursive;
+}
+
+
+
+/*gallery flexbox*/
+
 .gallery-area {
   display: flex;
   flex-wrap: wrap;
@@ -1012,6 +1118,9 @@ div.logo {
   align-items: center;
   justify-content: center;
 }
+
+
+/*gallery flexbox images*/
 
 .latataone-img  img{
   padding: 40px 20px 20px;
@@ -1025,11 +1134,16 @@ div.logo {
   height: 300px;
 }
 
-@media screen and (max-width: 1024px){
-  .nav-bar{
-    width: 100%;
-  }
-}
+
+
+
+
+
+
+
+
+
+/*media queiry*/
 
 @media screen and (max-width: 600px){
 
@@ -1151,6 +1265,14 @@ div.logo {
     height: 150px;
     top: 750px;
     left: 130px;
+  }
+
+  .deul {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: 750px;
+    left: 300px;
   }
 
   .deul {
